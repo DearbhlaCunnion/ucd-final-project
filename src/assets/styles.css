@@ -38,7 +38,7 @@ header {
   background-color: #1a1a1a;
   padding: 10px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -110,7 +110,6 @@ nav ul li a:hover {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  gap: 20px; 
 }
 
 .movie-item {
