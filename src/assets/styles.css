@@ -16,7 +16,6 @@ body,html {
   flex-direction: column;
 }
 
-
 main {
   flex-grow: 1;
 }
@@ -38,8 +37,7 @@ header {
   z-index: 10;
   background-color: #1a1a1a;
   padding: 10px 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
-}
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 
 nav {
   display: flex;
@@ -67,7 +65,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #f39c12;
-  color: #121212; /* Contrast text color */
+  color: #121212; 
 }
 
 .search-container {
@@ -107,13 +105,12 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
-/* Style for search results */
 #searchResults {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
-  gap: 20px; /* Add space between items */
+  gap: 20px; 
 }
 
 .movie-item {
